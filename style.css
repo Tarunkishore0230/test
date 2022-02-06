@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+p{
+    display:inline-block;
+    line-break: 2;
+    padding: 30px;
+}
+h1{
+    background-color: #212529;
+    color: white;
+    padding: 30px;    
+}
+
+
+
+.para{
+    text-align: left;
+    float: left;
+    position: relative;
+}
+.graph{
+    text-align: right;
+    float: right;
+    position: relative;
+}
+
+.circular{
+    border-radius: 40%;
+}
+.avatar{
+    image-resolution: 100%;
+}

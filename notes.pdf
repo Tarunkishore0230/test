@@ -1,0 +1,41 @@
+#HTML:
+1.<!-- div stands for content division element -->
+
+2.<!-- span elelment is inline display element -->
+
+3.<!-- <span>TARUN</span>
+     <span>KISHORE</span>
+     (RESULT: tarunkishore) -->
+
+4.<!-- favicons = icons over page name; favourite icon -->
+5.<!-- id can be used for once but class can be used for many -->
+
+
+
+
+
+
+#CSS:
+1./* selector {property: value;}
+tag selector starts with tag name only(selector)
+class selector comes with (.selector)
+id selector starts with (#selector) */
+2./* box model include width/height
+{padding:20px} desides the gap btwn pic/text and border
+{margin:10px} gap btwn border of image/text to the page border */
+
+3./* there are 4 dsiplay properties : 1)inline 2)block 3)inline-block 4)none
+in case we need to add two different paragraph tags we have to use code named {display:inline} & to display two words on same line into two diff. lines we must use {display:block}
+we can also use {display: inline-block} 
+{display:none;} is used for removing element as they didnot exist*/
+/* position property=
+1)static- its default,
+2)relative- it doesnt effect other elements, only object slected are effected by this postoning. e.g., img{
+    position:relative
+    right:30px;
+}  it meassure to shift in any direction from its own cordinate as ex. it detemines to shift to left of screen by 30px from its present space
+3)absolute- e.g., img {
+    position:absolute
+    right:30px;
+} it follows the screen path to get the shift to either of the four sides as in example it specifies space from ri8 side of screen
+4)fixed- it allows element to float with the screen movement, means if we put an object to fixed positio it will not dissapear with the movement in screen like scrolling*/
